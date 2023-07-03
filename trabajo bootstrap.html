@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="Inuyashaicono.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Style/style.css">
+
+    <title>Anime Daily</title>
+
+     
+    <script>
+        alert("¡Bienvenidos Otakus!");
+      </script>
+    <script>
+        let usuario;
+        usuario = prompt('Ingrese su nombre de usuario');
+        let mensaje = 'Que tengas una linda experiencia: ';
+        mensaje = mensaje.concat(usuario);
+        alert(mensaje);
+    </script>
+    
+    
+
+  </head>
+  <body style="background-color: #f2daf6;">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Anime Daily</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Links de Interés
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.shonenjump.com/mangaplus/whatismangaplus/">Shonenjump</a></li>
+                      <li><a class="dropdown-item" href="https://www.crunchyroll.com/es/search">Crunchyroll</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://anime-expo.cl/">Anime-expo</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div>
+    <h1>Noticias Otakus y mucho más!</h1>
+    <p class="parrafo1"> En nuestra web encontrarás noticias, eventos e información sobre anime, video juegos y mucho más</p>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./IMG/Anime.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/OnePiececar.avif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/HunterXcar.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <div class="un-div">
+            
+        <!--En esta division tuve la idea de agregar un test para saber "Que pilar eres", sin embargo me resultó complejo por lo que decidí agregar un foro con la pregunta
+        "¿Cual ha sido tu arco favorito?, pero un foro también resultó complejo ya que ademas debía integrar PHP, entonces opté por generar una pregunta con un recuadro" -->
+        <h2>Se termina la temporada de Kimetsu no Yaiba :c</h2>
+        <h5 style="color: red;"> Spoiler Alert!</h5>
+        <p class="parrafo2">Rumbo a la aldea de los herreros ha llegado a su fin, la temporada no solo nos presentó a los pilares Kanroji y Tokito, luchando contra las lunas superiores 
+            Hantengu y Gyokko, sino que también Tanjiro obtiene una nueva y mas poderosa espada, y Nezuko desbloquea la habilidad que el propio Muzan no ha sido capaz,
+            dominar el sol! </p> 
+            <img src="Kanroji.png" class="rounded-circle"alt="Kanroji vs Hantengu">
+            <form>
+                <label for="arco">¿Cúal ha sido tu arco favorito?:</label>
+                <input type="text" id="arco" name="arco" required>
+            </form>
+        </p>
+      </div>
+
+      <div>
+        <!-- Pensé que en este caso se veria mejor el enlace a Youtube desde la imagen -->
+        <h2>La segunda temporada de Tokyo Revengers llega a su fin</h2>
+        <p class="parrafo3">Ya se terminó la segunda temporada de Tokyo Revengers dejándonos muchas interrogantes. Mikey sin ser el protagonista, ha sido uno de los personajes más 
+            populares hasta ahora, por lo que luego de esta temporada en que parece haber cambiado totalmente nos preguntamos entonces, ¿Takemichi podrá salvarlo y 
+            junto a el, a la Tokyo Manji? </p>
+            <h6>Cry Baby era un gran opening!</h6>
+        <a href="https://www.youtube.com/watch?v=O1bhZgkC4Gw">
+            <img src="Mikey.png" class="rounded" alt="Mikey">
+        </a>
+      </div>
+
+      <div class="dos-div">
+        <!-- Ya que el parrafo se trata de una recomendación, me pareció útil agregar el link para ver la serie y pude hacerlo sin problema -->
+        <h2>¿Te gusta entrenar y también te gusta Harry Potter?</h2>
+        <p class="parrafo4">Mashle es una serie estrenada en abril que se encontrará en emisión hasta julio de este año, trata de un adolescente que nació sin poderes mágicos en un mundo 
+            donde la magia lo es todo, sin embargo, tiene una fuerza descomunal que lo llevará a situaciones inesperadas. La serie con referencias a Harry Potter te hará 
+            reír, te motivará a una vida fitness y te antojará de un bollito de crema!</p>
+            <img src="Mashle.png" class="rounded" alt="Mashle">
+        <ul>
+          <li><a href="https://www.crunchyroll.com/es/offer-mashle?utm_source=google&utm_medium=paid_cr&utm_campaign=CR-Paid_Google_Web_Consideration_LATAM_ALL_Generic-Titles_SVOD&utm_term=mashle%20magic%20and%20muscles%20anime&referrer=google_paid_cr_CR-Paid_Google_Web_Consideration_LATAM_ALL_Generic-Titles_SVOD&gclid=CjwKCAjw-vmkBhBMEiwAlrMeF2v2KoU8nyVpCCNfjxPQiLs_IaB9g2smPQK334poZGGaZmGI-XSBkBoCTysQAvD_BwE">Puedes verla ahora en Crunchyroll</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <!-- Pensé que en este caso se veria mejor el enlace a Youtube desde la imagen -->
+        <h2>Feria Friki Domingo 09 de julio</h2>
+        <p class="parrafo5">¿Ya tienes panorama para el Domingo 09 de julio? La Feria Friki pasará por Maipú, en Cerro Primo de Rivera a la Salida del metro Santiago Bueras desde 
+            las 12:00 a las 19:00 Hrs. Como siempre contará con karaoke, bloque Just Dance, Kpop Random, Food Trucks, Tiendas y mucho más.</p>
+            <img src="Friki.png" class="rounded-circle" alt="feriafriki">  
+            <h6>Para mayor información de eventos visita</h6> 
+            <ul>
+                <li><a href="https://www.feriafriki.cl/eventos/">Feria Friki</a></li>
+            </ul>
+      </div>
+<footer>    
+  <p>Nayadeth Andrea Perez Casanova</p>
+  <p>Anime Daily</p>
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>

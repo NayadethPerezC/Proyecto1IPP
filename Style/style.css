@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+text-align: center;
+}
+        .navbar {
+          background-color: #846afa;
+          height: 50px;
+        }
+        footer {
+            background-color: #846afa;
+            padding: 15px;
+            text-align: center;
+        }
+        .un-div {
+          background-color: #a2f9b8fd;
+        }
+     
+        .dos-div {
+          background-color: #ec8ac5fd;
+        }
+    
+        .parrafo1 {
+        font-size: 50px;
+        }
+        .parrafo2 {
+        font-size: 15px;
+        }
+        .parrafo3 {
+        font-size: 20px;
+        }
+        .parrafo4 {
+        font-size: 37px;
+        }
+        .parrafo5 {
+        font-size: 17px;
+        }
+ 
